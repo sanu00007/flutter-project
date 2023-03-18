@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "747248381474",
+    "project_id": "registration-form-7efcc",
+    "storage_bucket": "registration-form-7efcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747248381474:android:8ad3caf2cbc15ca482247b",
+        "android_client_info": {
+          "package_name": "com.example.sanin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747248381474-v262ija20tj876g40l51j80ih5bnmoep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanin",
+            "certificate_hash": "2b05dc2110e3140bbcf4894efeebb2a697480f8d"
+          }
+        },
+        {
+          "client_id": "747248381474-ilh0kghc1aos384on41opc6bh1h9j8ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Pw_Mqi2crZ1CdWw2kYilFVIHm5GuPlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747248381474-ilh0kghc1aos384on41opc6bh1h9j8ff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
