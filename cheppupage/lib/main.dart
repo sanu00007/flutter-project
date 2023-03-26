@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:bookapp/signin.dart';
 
 void main() {
   runApp(const signin());
@@ -12,15 +11,14 @@ class signin extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
+      backgroundColor: Colors.blueAccent,
       appBar: AppBar(
         title: Text("LOGIN PAGE"),
         centerTitle: true,
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.amber,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.home)),
         actions: [
-          Icon(Icons.person_add),
-          Icon(Icons.person_2),
-          Icon(Icons.person_add),
+          Icon(Icons.notifications),
         ],
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
@@ -29,9 +27,13 @@ class signin extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text("LOGIN",
+            Container(
+              height: 50,
+              width: 50,
+            ),
+            Text("LOGIN HERE",
                 style: TextStyle(
-                    color: Colors.teal,
+                    color: Colors.black26,
                     fontSize: 32,
                     fontWeight: FontWeight.w600)),
             Container(
@@ -48,7 +50,7 @@ class signin extends StatelessWidget {
                     color: Colors.black,
                   )),
               child: TextFormField(
-                decoration: InputDecoration(label: Text("EMAIL")),
+                decoration: InputDecoration(label: Text("Email")),
               ),
             ),
             Container(
@@ -72,15 +74,9 @@ class signin extends StatelessWidget {
               alignment: Alignment.centerRight,
               height: 20,
               width: 270,
-              child: TextButton(
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => NextPage()));
-                },
-                child: Text(
-                  "forget password",
-                  style: TextStyle(color: Colors.black),
-                ),
+              child: Text(
+                "forgot password?",
+                style: TextStyle(color: Colors.redAccent),
               ),
             ),
             Container(
@@ -88,11 +84,10 @@ class signin extends StatelessWidget {
               width: 50,
             ),
             ElevatedButton(
-              child: Text("LOG IN"),
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => NextPage()));
-              },
+              child: Text(
+                "LOG IN",
+              ),
+              onPressed: () {},
             )
           ],
         ),
