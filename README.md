@@ -25,7 +25,7 @@ This repository contains a collection of Flutter projects, each designed for lea
    - Last Commit: 8 months ago
 
 7. **etlab**
-   - Description: A Flutter project named 'etlab' with specific functionalities (provide details).
+   - Description: A Flutter project named 'etlab' for providing academic and non academic details to students.
    - Last Commit: 8 months ago
 
 8. **icon**
